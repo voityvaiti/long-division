@@ -25,6 +25,8 @@ public class LongDivision {
         StringBuilder divisionBuilder = new StringBuilder();
         int indentLength = 0;
 
+        remainder = 0;
+
         while (dividendDigitGetter.hasNext()) {
 
             updateRemainder();
